@@ -1,3 +1,6 @@
+*{
+  margin: 0;
+}
 body{
   font-family: 'poppins';  /** With the help of Poppins font */
 }
