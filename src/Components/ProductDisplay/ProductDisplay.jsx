@@ -38,8 +38,17 @@ const ProductDisplay = (props) => {
                   garment. 
               </div>
               <div className="productdisplay-right-size">
-                <h1></h1>
+                <h1>Select Size</h1>
+                <div className="productdisplay-right-size">
+                    <div>S</div>
+                    <div>M</div>
+                    <div>L</div>
+                    <div>XL</div>
+                    <div>XXL</div>
+                </div>
               </div>
+              <button>ADD TO CART</button>
+              <p className="productdisplay-right-category"><span>Category: </span>Women, T-Shirt, Crop Top</p>
        </div>
     </div>
   )
